@@ -1167,6 +1167,9 @@ AS BEGIN
 END
 GO 
 
+EXEC SP_ADD_USUARIO '123345', 'admin', 'admin', 'admin', 'admin', '45789612', 'Zona 2', 'admin@admin', 'Administrador', 'Administrador';
+GO
+
 CREATE PROC SP_DESACTIVAR_USER @ID INT, @Estado BIT
 AS BEGIN
 	IF @Estado = 1
@@ -1376,6 +1379,7 @@ AS BEGIN
 	AND AC.HoraInicio <= @HoraInicio 
 	AND AC.HoraFinal >= @HoraFinal
 END
+GO
 
 create proc obtenerJugadoresDelEquipo @Id_Torneo int, @Id_Equipo int
 as
@@ -1386,3 +1390,4 @@ as
 	INNER JOIN equipo on equipo.Id_Equipo = posicion_jugador.Id_Equipo
 	WHERE posicion_jugador.Id_Torneo = @Id_Torneo
 	and posicion_jugador.Id_Equipo = @Id_Equipo;
+GO
