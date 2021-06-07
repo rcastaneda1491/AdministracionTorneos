@@ -103,13 +103,13 @@ namespace AdminitracionDeTorneosP.View
 
         private void btnIngresosCanchas_Click(object sender, EventArgs e)
         {
-            vista_Reporte_Ingreso_C viewReporteIngresoCancha = new vista_Reporte_Ingreso_C();
+            ViewReporteIngresoCancha viewReporteIngresoCancha = new ViewReporteIngresoCancha();
             viewReporteIngresoCancha.ShowDialog();
         }
 
         private void btnIngresosArbitraje_Click(object sender, EventArgs e)
         {
-            vista_Reporte_Ingresos_A viewReporteIngresosArbitraje = new vista_Reporte_Ingresos_A();
+            ViewReporteIngresosArbitraje viewReporteIngresosArbitraje = new ViewReporteIngresosArbitraje();
             viewReporteIngresosArbitraje.ShowDialog();
         }
 
@@ -123,12 +123,6 @@ namespace AdminitracionDeTorneosP.View
         {
             ViewReporteDisponibilidadCancha viewReporteDisponibilidadCancha = new ViewReporteDisponibilidadCancha();
             viewReporteDisponibilidadCancha.ShowDialog();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            ReporteEquipo rss = new ReporteEquipo();
-                rss.Show();
         }
     }
 }

@@ -237,12 +237,6 @@
     <Compile Include="View\CRUD_GOL.Designer.cs">
       <DependentUpon>CRUD_GOL.cs</DependentUpon>
     </Compile>
-    <Compile Include="View\ReporteEquipo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\ReporteEquipo.Designer.cs">
-      <DependentUpon>ReporteEquipo.cs</DependentUpon>
-    </Compile>
     <Compile Include="View\ReporteEstadisticasDelEquipo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -333,6 +327,18 @@
     <Compile Include="View\ViewReporteDisponibilidadCancha.Designer.cs">
       <DependentUpon>ViewReporteDisponibilidadCancha.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\ViewReporteIngresoCancha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewReporteIngresoCancha.Designer.cs">
+      <DependentUpon>ViewReporteIngresoCancha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ViewReporteIngresosArbitraje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ViewReporteIngresosArbitraje.Designer.cs">
+      <DependentUpon>ViewReporteIngresosArbitraje.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\vISTA_ENCUENTROS_WIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -350,18 +356,6 @@
     </Compile>
     <Compile Include="View\VISTA_PORTERO_MENOS_VENCIDO.Designer.cs">
       <DependentUpon>VISTA_PORTERO_MENOS_VENCIDO.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\vista_Reporte_Ingresos_A.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\vista_Reporte_Ingresos_A.Designer.cs">
-      <DependentUpon>vista_Reporte_Ingresos_A.cs</DependentUpon>
-    </Compile>
-    <Compile Include="View\vista_Reporte_Ingreso_C.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="View\vista_Reporte_Ingreso_C.Designer.cs">
-      <DependentUpon>vista_Reporte_Ingreso_C.cs</DependentUpon>
     </Compile>
     <Compile Include="View\VISTA_REPORTE_LOCAL.cs">
       <SubType>Form</SubType>
@@ -439,9 +433,6 @@
     <EmbeddedResource Include="View\CRUD_GOL.resx">
       <DependentUpon>CRUD_GOL.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="View\ReporteEquipo.resx">
-      <DependentUpon>ReporteEquipo.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View\ReporteEstadisticasDelEquipo.resx">
       <DependentUpon>ReporteEstadisticasDelEquipo.cs</DependentUpon>
     </EmbeddedResource>
@@ -487,6 +478,12 @@
     <EmbeddedResource Include="View\ViewReporteDisponibilidadCancha.resx">
       <DependentUpon>ViewReporteDisponibilidadCancha.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewReporteIngresoCancha.resx">
+      <DependentUpon>ViewReporteIngresoCancha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ViewReporteIngresosArbitraje.resx">
+      <DependentUpon>ViewReporteIngresosArbitraje.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\vISTA_ENCUENTROS_WIN.resx">
       <DependentUpon>vISTA_ENCUENTROS_WIN.cs</DependentUpon>
     </EmbeddedResource>
@@ -495,12 +492,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="View\VISTA_PORTERO_MENOS_VENCIDO.resx">
       <DependentUpon>VISTA_PORTERO_MENOS_VENCIDO.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\vista_Reporte_Ingresos_A.resx">
-      <DependentUpon>vista_Reporte_Ingresos_A.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="View\vista_Reporte_Ingreso_C.resx">
-      <DependentUpon>vista_Reporte_Ingreso_C.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\VISTA_REPORTE_LOCAL.resx">
       <DependentUpon>VISTA_REPORTE_LOCAL.cs</DependentUpon>
