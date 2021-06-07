@@ -124,5 +124,11 @@ namespace AdminitracionDeTorneosP.View
             ViewReporteDisponibilidadCancha viewReporteDisponibilidadCancha = new ViewReporteDisponibilidadCancha();
             viewReporteDisponibilidadCancha.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ReporteEquipo RE = new ReporteEquipo();
+            RE.Show();
+        }
     }
 }
