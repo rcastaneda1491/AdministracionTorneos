@@ -148,3 +148,4 @@ C:\Users\rcast\Desktop\Proyecto\AdminitracionDeTorneosP\AdminitracionDeTorneosP\
 C:\Users\rcast\Desktop\Proyecto\AdminitracionDeTorneosP\AdminitracionDeTorneosP\obj\Release\AdminitracionDeTorneosP.csproj.CoreCompileInputs.cache
 C:\Users\rcast\Desktop\Proyecto\AdminitracionDeTorneosP\AdminitracionDeTorneosP\obj\Release\AdminitracionDeTorneosP.exe
 C:\Users\rcast\Desktop\Proyecto\AdminitracionDeTorneosP\AdminitracionDeTorneosP\obj\Release\AdminitracionDeTorneosP.pdb
+C:\Users\rcast\Desktop\Proyecto\AdminitracionDeTorneosP\AdminitracionDeTorneosP\obj\Release\AdminitracionDeTorneosP.View.listadoArbitrosGit.resources

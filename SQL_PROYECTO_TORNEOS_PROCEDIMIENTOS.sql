@@ -1391,3 +1391,9 @@ as
 	WHERE posicion_jugador.Id_Torneo = @Id_Torneo
 	and posicion_jugador.Id_Equipo = @Id_Equipo;
 GO
+
+CREATE PROCEDURE SP_GET_ARBITROS_GIT
+AS BEGIN
+	SELECT * FROM arbitro;
+END
+GO

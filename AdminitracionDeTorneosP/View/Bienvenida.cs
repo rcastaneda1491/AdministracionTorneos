@@ -124,5 +124,11 @@ namespace AdminitracionDeTorneosP.View
             ViewReporteDisponibilidadCancha viewReporteDisponibilidadCancha = new ViewReporteDisponibilidadCancha();
             viewReporteDisponibilidadCancha.ShowDialog();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            listadoArbitrosGit listadoArbitrosGit = new listadoArbitrosGit();
+            listadoArbitrosGit.ShowDialog();
+        }
     }
 }
