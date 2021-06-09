@@ -818,7 +818,7 @@ from partido p, cancha c
 where p.Id_Cancha = c.NumeroCancha and c.Disponibilidad = 'No Disponible';
 go
 
---equipo local reporte ´procedimientos jose curtidor
+--equipo local reporte Â´procedimientos jose curtidor
 create Function total_datos_parcialss(@id_torneo int)
 returns table
 as
