@@ -817,7 +817,7 @@ from partido p, cancha c
 where p.Id_Cancha = c.NumeroCancha and c.Disponibilidad = 'No Disponible';
 go
 
---equipo local reporte ´procedimientos jose curtidor
+--equipo local reporte Â´procedimientos jose curtidor
 create Function total_datos_parcialss(@id_torneo int)
 returns table
 as
@@ -1390,4 +1390,11 @@ as
 	INNER JOIN equipo on equipo.Id_Equipo = posicion_jugador.Id_Equipo
 	WHERE posicion_jugador.Id_Torneo = @Id_Torneo
 	and posicion_jugador.Id_Equipo = @Id_Equipo;
+GO
+
+CREATE PROCEDURE SP_GET_ARBITROS_GIT
+AS BEGIN
+	SELECT * FROM arbitro;
+END
+
 GO
