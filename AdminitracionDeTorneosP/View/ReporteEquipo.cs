@@ -13,8 +13,7 @@ namespace AdminitracionDeTorneosP.View
 {
     public partial class ReporteEquipo : Form
     {
-        private string connectionString = "Server=DESKTOP-IFKEU1D\\SQLEXPRESS   ;Database=PROYECTO_TORNEOS;User Id=sa;Password=albin123;"; // Conectando a la base de datos SQL
-
+        private string connectionString = "Server=DESKTOP-U4PFR0A;Database=PROYECTO_TORNEOS;User Id=Rogelio;Password=12345;"; // Conectando a la base de datos SQL
         public ReporteEquipo()
         {
             InitializeComponent();
