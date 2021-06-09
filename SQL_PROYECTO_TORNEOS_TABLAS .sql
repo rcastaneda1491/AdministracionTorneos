@@ -111,6 +111,10 @@ CREATE TABLE cancha(
 	PRIMARY KEY(NumeroCancha)
 );
 go
+insert into cancha
+(Nombre , TipoCancha, Disponibilidad, Precio_hora) values('Pro','11','disponible','100.00')
+
+
 -- ---------------------- TABLA partido ---------------
 CREATE TABLE partido(
 	Id_Juego		int NOT NULL IDENTITY(1,1),

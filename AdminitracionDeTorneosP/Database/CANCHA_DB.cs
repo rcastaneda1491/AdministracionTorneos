@@ -13,7 +13,7 @@ namespace AdminitracionDeTorneosP.Database
   public  class CANCHA_DB
     {
 
-        private string connectionstring = "Server=DESKTOP-U4PFR0A;Database=PROYECTO_TORNEOS;User Id=Rogelio;Password=12345;";
+        private string connectionstring = "Server=LAPTOP-0A8H41G8 ;Database=PROYECTO_TORNEOS;User Id=Capacitation;Password=manager;"; // Conectando a la base de datos SQL
 
         SqlConnection conexion;
 

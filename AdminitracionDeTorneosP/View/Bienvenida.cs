@@ -125,10 +125,22 @@ namespace AdminitracionDeTorneosP.View
             viewReporteDisponibilidadCancha.ShowDialog();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ReporteEquipo RE = new ReporteEquipo();
+            RE.Show();
+        }
+
         private void button6_Click(object sender, EventArgs e)
         {
             listadoArbitrosGit listadoArbitrosGit = new listadoArbitrosGit();
             listadoArbitrosGit.ShowDialog();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            reportecanchasgit reportecanchasgit = new reportecanchasgit();
+            reportecanchasgit.Show();
         }
     }
 }
