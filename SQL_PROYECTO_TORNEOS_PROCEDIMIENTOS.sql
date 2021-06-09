@@ -311,6 +311,7 @@ AS
 insert into cancha(Nombre,TipoCancha,Disponibilidad, Precio_hora)values(@Nombre,@TipoCancha,@Disponibilidad, @Precio_hora);
 go
 
+'josue' ,'11','apartada' '200' ,5
 
 --modifica Cancha
 create proc  BG_Editar_Cancha @NumeroCancha int,@Nombre varchar(100),@TipoCancha varchar(50),@Disponibilidad varchar(50), @Precio_hora decimal
@@ -1397,3 +1398,8 @@ AS BEGIN
 	SELECT * FROM arbitro;
 END
 GO
+	create proc js_obtenercanchas
+	AS BEGIN
+		SELECT * FROM CANCHA
+	END 
+	GO
