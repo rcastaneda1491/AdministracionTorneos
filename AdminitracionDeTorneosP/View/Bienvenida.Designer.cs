@@ -391,6 +391,7 @@ namespace AdminitracionDeTorneosP.View
             this.button5.TabIndex = 44;
             this.button5.Text = "Rep. Jugadores Git";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -415,7 +416,7 @@ namespace AdminitracionDeTorneosP.View
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(240)))), ((int)(((byte)(248)))));
-            this.ClientSize = new System.Drawing.Size(782, 490);
+            this.ClientSize = new System.Drawing.Size(782, 501);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button5);
