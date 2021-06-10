@@ -136,5 +136,11 @@ namespace AdminitracionDeTorneosP.View
             listadoArbitrosGit listadoArbitrosGit = new listadoArbitrosGit();
             listadoArbitrosGit.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            reportecanchasgit reportecanchasgit = new reportecanchasgit();
+            reportecanchasgit.Show();
+        }
     }
 }

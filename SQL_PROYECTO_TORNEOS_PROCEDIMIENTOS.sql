@@ -1398,3 +1398,9 @@ AS BEGIN
 END
 
 GO
+
+create proc js_obtenercanchas
+AS BEGIN
+	SELECT * FROM CANCHA
+END 
+GO
