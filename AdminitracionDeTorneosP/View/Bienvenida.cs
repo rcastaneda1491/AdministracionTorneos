@@ -142,5 +142,11 @@ namespace AdminitracionDeTorneosP.View
             reportecanchasgit reportecanchasgit = new reportecanchasgit();
             reportecanchasgit.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Reporte_Jugadores jugadoress = new Reporte_Jugadores();
+            jugadoress.Show();
+        }
     }
 }
